@@ -1,0 +1,45 @@
+server:
+  port: 8000
+spring:
+  profiles:
+    active: default
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:yukyongsoo/msaConfig.git
+          ignore-local-ssh-settings: true
+          passphrase: fltnl123
+          private-key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            Proc-Type: 4,ENCRYPTED
+            DEK-Info: AES-128-CBC,57EDF53BEB68016ADA49463C02141133
+
+            IvRWIe0RNbpE/LOnppW9d1yvGwQjGpI6OHdh4wfkh8GaV8yZ9AnFktVDkHgISudp
+            /nBrSz2EZxa6XyJCrMe9wVTnWE2WHeuotZO61VKtRgwcQ0DwRAsYVfyODHryTIzt
+            y5I/COPxmZNoDP/vKMruiRS9gWErCeEmELfloY0IzFkxr2wMhZj3CvIoK89w0yYJ
+            hw7vuBUn30Ne9ySfjdwruJks5AUNdZ34D71e9pan5XlK0brxljv4X8sxvy3yNm+j
+            LnDwe+gFA+3wz1rfpl/6Zslm/h2mGctNBNlRKccZscyvafNAz6q9E42FUoB+iRzT
+            GQytj84goPbSRCZ7sV2Bt4Wo9Qu7IFqa5HhGd066G/VooR5HQ0fi8YchbVwOqeCx
+            GtFm7wFCx+JrqiRqJf9KDmWydAaHLbA8ziCEcxtuhwGwtokifUm1NtXZvFyH/MVY
+            qdfxblb6nuEcUwV944zbsYTdz8b/GYGu8wzW5ViEfK4Gz9WXdWDEXe4anGa/wZfJ
+            Wf71Are8AncQd25farRW2HyeKH0waEb31YpDPn1m2ZJGYH7KucrhkvKHFAe6QuJ0
+            +vbXLH4uHgzQ/L+kPdo8r/c23PWsBPQO50UmFYnlfjSPAfoNZGE0sHfT0iKMCl8T
+            +MbSeL/dYZoOs2wWoJoDqOMJ8H/DdlqikjIGK4l0+tJ7LswaSpbzYKZb6XzYo7za
+            XjJiLOIi7CuV2Cad9w8lnS1CpitfCpVDsZ5MoShQ1O8gmQJMo47Gj/7fn84UUnNf
+            x1EvEpmLK3K9vAd9llcPUfMxdkQbllb6BPPU24IMWdvhkGopd1CsAGyblf4U53v7
+            LJZ1Ex5sQY8ac+Ui1qopuJLlIDBMMB9yergo2ZzkIOSmlqo6pC4nRpOlbPaNfzim
+            Vf3idYbFC1RMAw5wU2gEhGF/X+AKCvtdrJ3L5KLy3fqwNXfGvzg5fKnqNWGOPRs1
+            bti57A1rL+qnIQDusnGX54eNDTXyUTmll1wJ5Iw8RIL40SrZ59hZUCkSAozXjiI3
+            sJyokbN/cMXr2wyLPintqrJqMZHTe8AZNCLqgCa0jxHDVFhzQ2chljdUt1Pttfb0
+            fnIVBuEwfRQvLlC0HNR+UhbboAd+nfEcyxnI8XhEqroOiKlWr10K4Akr73iGV/ea
+            utlDx9RIm6Ixdej/T5mnb0Qb9q3BE3/IwHJO9QF7FjD9zifgy4lv8ItKUiajv1Tn
+            xZoorYBJ0WXlvZQOnTWRFacn/AdHIkR8XkaM83fEFmd6lA+UE0MD9qNT4FRKkwl0
+            uhVUXNnBfNJ2ybryHc+gl7Ax2mb8QfBjxPOc4pMd+j/pFENGKrBUCj8jl1m7T7Qf
+            aJr7VtP3UcQ2CVJFuBq35uD3aAWDrE9qmd66OUTkwZsPAhs4yNBZrOi/osqXMz9C
+            wPzfmxpQaPKI6BY5wm9WwM6R9zpMflDhsMJMA8+mauaEVxn1AoIo+mfzNivFrPdd
+            al65MyskWJdKuw0BdhOCrTp28op7fm+YbdtBlnWH2t6/xoqkyJyvKvxBGn/1Gphm
+            Xb7xkhC9C+9PhUqyqKtQHvk6siMl3AijTzBR8k0x0X5Kauu1dmAmZvoBVIf7whql
+            -----END RSA PRIVATE KEY-----'
+
+
